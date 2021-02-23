@@ -34,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.4",
+    "cypress": "^6.5.0",
+    "netlify-plugin-cypress": "^1.11.1"
   }
 }
