@@ -1,6 +1,6 @@
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('localhost:3000')
+    cy.visit('/')
   })
 
   describe('My First Test', () => {
