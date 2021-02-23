@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^6.5.0",
     "netlify-plugin-cypress": "^1.11.1"
   }
 }
