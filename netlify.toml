@@ -11,8 +11,8 @@ CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
 # set TERM variable for terminal output
 TERM = "xterm"
 
+# run Cypress E2E tests
 [[plugins]]
-# local Cypress plugin will test our site after it is built
 package = "netlify-plugin-cypress"
   [plugins.inputs]
     # skip the default tests before the deploy
@@ -20,3 +20,4 @@ package = "netlify-plugin-cypress"
   [plugins.inputs.onSuccess]
     # run tests after the deploy
     enable = true
+    record = true
