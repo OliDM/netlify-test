@@ -9,4 +9,10 @@ context('Actions', () => {
     })
   })
 
+  describe('this test will fail', () => {
+    it('checking plugin behavior on error', () => {
+      cy.findByText('Learn React in 5 seconds').should('exist')
+    })
+  })
+
 })
